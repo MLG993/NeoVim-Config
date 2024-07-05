@@ -22,3 +22,12 @@
   Firstly you have to navigate to the .config directory to see your directories (the hided included) you type 
   ls -a you should see a .config directory. Navigate into it using cd and create a directory called nvim (with mkdir == make directory).
   After you did this you may clone this repository into your nvim directory.
+
+-> 1.3 Installing the Plugins:
+
+  Open NeoVim using the nvim command. Go into command mode (ESC) and type:
+
+    :PlugInstall
+
+  You should get a screen installing your Plugins. Let them finish downloading. As soon as they're done downloading,
+  You have your Nvim Editor perfect for Web-Development thanks to the auto-completion.
