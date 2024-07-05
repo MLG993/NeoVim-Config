@@ -11,7 +11,8 @@
 
   VIM-PLUG:
 
-  Our Plugin Manager which we use to install the Plugins:
+  Our Plugin Manager which we use to install the Plugins 
+  (check out the repository!: https://github.com/junegunn/vim-plug?tab=readme-ov-file):
 
     curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
