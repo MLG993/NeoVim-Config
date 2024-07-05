@@ -1,6 +1,6 @@
 # NeoVim-Config
 
-## -> 1.1 Installation of needed Packages:
+### -> 1.1 Installation of needed Packages:
 
   Depending on which operating system you are using you have different methods to install Neovim.
   Here you can see all of them: https://github.com/neovim/neovim/blob/master/INSTALL.md
