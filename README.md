@@ -1,1 +1,24 @@
 # NeoVim-Config
+
+-> # 1.1 Installation of needed Packages:
+
+  Depending on which operating system you are using you have different methods to install Neovim.
+  Here you can see all of them: https://github.com/neovim/neovim/blob/master/INSTALL.md
+
+  For me it was:
+
+    sudo pacman -S neovim
+
+  VIM-PLUG:
+
+  Our Plugin Manager which we use to install the Plugins:
+
+    curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+
+-> 1.2 Setting everything up:
+
+  Firstly you have to navigate to the .config directory to see your directories (the hided included) you type 
+  ls -a you should see a .config directory. Navigate into it using cd and create a directory called nvim (with mkdir == make directory).
+  After you did this you may clone this repository into your nvim directory.
